@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header {
+    height: 100px;
+    background: yellow;
+}
+
+nav {
+    height: 50px;
+    background-color: blue;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section {
+    background-color: cadetblue;
+    width: 80%;
+    height: 300px;
+
+}
+
+aside {
+    background-color: blueviolet;
+    width: 20%;
+
+}
+
+.caja {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    height: 75px;
+    background-color: rgb(255, 0, 234);
+}
