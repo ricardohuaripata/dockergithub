@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ricardohuaripata/contenedor:latest , ricardohuaripata/contenedor:${{github.event.pull_request.title}}
+          tags: ricardohuaripata/dockergithub:latest , ricardohuaripata/dockergithub:${{github.event.pull_request.title}}
